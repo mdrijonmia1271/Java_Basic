@@ -13,13 +13,15 @@ public class array2D2 {
         //Getting inpur for A Matrix
         for(int row=0; row<3; row++){
             for(int col=0; col<3; col++){
+                System.out.printf("A[%d][%d] = ",row,col);
                 A[row][col] = input.nextInt();
             }
         }
          //Getting inpur for B Matrix
-         System.out.println(" Enter Input B Matrix = ");
+         System.out.println("Enter Input B Matrix = ");
          for(int row=0; row<3; row++){
             for(int col=0; col<3; col++){
+                System.out.printf("B[%d][%d] = ",row,col);
                 B[row][col] = input.nextInt();
             }
         }
@@ -37,6 +39,14 @@ public class array2D2 {
         for(int row=0; row<3; row++){
             for(int col=0; col<3; col++){
                 System.out.print(" "+B[row][col]);
+            }
+            System.out.println();
+        }
+        //Printing A+B Matrix 
+        System.out.println("OutPut A+B Matrix : ");
+        for(int row=0; row<3; row++){
+            for(int col=0; col<3; col++){
+                System.out.print(" "+(A[row][col] + B[row][col]));
             }
             System.out.println();
         }

@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-import javax.management.MBeanRegistrationException;
 
 public class array2D2 {
     public static void main(String[] args) {
@@ -50,5 +49,6 @@ public class array2D2 {
             }
             System.out.println();
         }
+        input.close();
     }
 }

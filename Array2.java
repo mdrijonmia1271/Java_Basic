@@ -32,5 +32,7 @@ public class Array2 {
         }
         System.out.println("\nArray of maximum number = "+max);
         System.out.println("Arrry of minimun number = "+min);
+
+        input.close();
     }
 }
